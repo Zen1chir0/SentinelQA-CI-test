@@ -25,4 +25,4 @@ jobs:
             "event": "workflow_run_failure",
             "repository": { "full_name": "${{ github.repository }}" },
             "workflow_run": { "id": "${{ github.run_id }}" }
-          }'
+          }' 
